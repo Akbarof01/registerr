@@ -29,8 +29,8 @@ function Register() {
     navigate('/login')
   }
   return (
-    <div>
-      <div className="w-full ml-[500px] max-w-xs">
+    <div className=' flex justify-center'>
+      <div className="w-full max-w-xs">
         <h1 className='font-sans font-bold text-[28px] ml-[150px] mt-[50px] '>Let’s go!</h1>
         <form onSubmit={handleSubmit} className="bg-white w-[450px] shadow-md rounded px-8 pt-6 pb-8 mb-4">
           <div className="mb-4">

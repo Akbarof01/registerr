@@ -5,11 +5,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    module:exports = {
-      // ... other Tailwind configurations
-      darkMode: 'media', // Enable dark mode based on user preference
-    },
-    
+    extend: {},
   },
   plugins: [],
 }
